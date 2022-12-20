@@ -1,1 +1,1 @@
-Learning how to program in C programming languages
+Learning how to program in C programming language
