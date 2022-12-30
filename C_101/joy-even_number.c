@@ -10,8 +10,7 @@ int main()
     int n;
 
     printf("Please enter number: ");
-    
-    scanf("%d\n", &n);
+    scanf("%d", &n);
 
     if (n % 2 == 0)
     {
@@ -21,10 +20,23 @@ int main()
     {
         printf("%d is an odd number\n", n);
     }
-    else
+    /**else
     {   
         printf("What the heck champ!!\n");
         printf("Please enter valid number\n");
     } 
+    return (0);*/
+    
+    printf("Do you want to continue??\n");
+    scanf("");
+    while ()
+
+
+
+
     return (0);
 }
+
+
+
+
