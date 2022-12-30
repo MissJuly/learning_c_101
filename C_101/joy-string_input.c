@@ -12,6 +12,6 @@ int main()
     printf("Input the string : ");
     fgets(str, sizeof(str), stdin);
 
-    printf("\n The string you entered is : %s\n", str);
+    printf("\nThe string you entered is : %s\n", str);
     return (0);
 }
