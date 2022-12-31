@@ -32,11 +32,24 @@ void birthday_song()
  * what_is_your_age - get age 
  *
  * Return: void
- *
+ */
 void what_is_your_age()
 {
-	int counter;
-*/	
+	int counter, age;
+
+	for (counter = 0; counter <= 1; counter++)
+	{
+		for (age = 0; age <= 1; age++)
+		{
+			printf("How old are you now??  ");
+			scanf("%d", &age);
+		}
+	}
+
+	printf("\nHappy birthday dear bestie......\n");
+	printf("Happy birthday to you!!!!\n");
+}
+	
 
 
 /**
@@ -46,17 +59,24 @@ void what_is_your_age()
  */
 int main(void)
 {
-	char name[25];
-	if (name = "Cecilia" || "CECILIA" || "cecilia")
+	/*char name[25]; strcmp("cecilia", "CECILIA") == 0
+	if (name = "Cecilia" || "CECILIA" || "cecilia")*/
+	
+	/*char name[8];
+
+	printf("Please enter your name: ");
+	scanf("%s", &name[25]);
+	if (name == "Cecilia")*/
 	{
-		printf("Please enter your name: ");
-		scanf("%s", &name[25]);
 		birthday_song();
 		birthday_song();
 		birthday_song();
+
+		what_is_your_age();	
 	}
-	else 
-		printf("Invalid name!!");
+
+	/*else 
+		printf("Invalid name!!");*/
 
 	return (0);
 }
